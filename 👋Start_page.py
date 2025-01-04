@@ -1,4 +1,3 @@
-import os
 from datetime import datetime
 
 import pandas as pd
@@ -7,8 +6,6 @@ import streamlit as st
 from sklearn.linear_model import LinearRegression
 from streamlit.runtime.uploaded_file_manager import UploadedFile
 import plotly.graph_objects as go
-
-BACKEND_URL = os.getenv("API_TOKEN")
 
 st.set_page_config(
     page_title="Start page",
